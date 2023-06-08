@@ -28,7 +28,7 @@ public class Watermarking {
             graphics.drawImage(image, 0, 0, null);
 
             // Set the opacity of the watermark logo
-            float opacity = 0.5f; // You can change the opacity as desired
+            float opacity = 0.5f; 
             graphics.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, opacity));
 
             // Apply the watermark on the image
